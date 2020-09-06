@@ -22,3 +22,19 @@ html  常用标签
 	属性:
 		href 用于指定链接目标的url地址 必填
 		target 用来指定链接页面打开方式 取值self当前页面打开(默认)  blank新页面打开
+
+14，<a href="#t1"></a>瞄点 如其它标签里面有个属性为id并且是t1 时 则可以跳转
+15，<base target="_blank/> 在新窗口打开标签 和 a标签一起使用 写在 head里面的
+16，<pre></pre> 预格式化文本
+17，<table></table> 表格标签 没有列的概念 只有行
+	<caption></caption> 表格标题标签
+	<tr></tr> 行
+		<td></td> 单元格
+		<th></th> 表头单元格
+	表格属性
+		border设置表格边框
+		cellspacing 设置单元格与单元格边框之间的空白间距
+		cellpadding 设置单元格内容与单元格边框之间的空白间距
+		width 设置表格的宽度
+		height 设置表格的高度
+		align 设置表格在网页中的水平对齐方式 左对齐 left 居中 center 右对齐 right
