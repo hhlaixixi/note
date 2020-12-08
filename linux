@@ -1,0 +1,5 @@
+1, 查看日志
+  tail -f fileName
+  -- 查看最后一百行 tail -n 100 fileName
+  -- 查看前面一百行 head -n 100 fileName
+2, 
