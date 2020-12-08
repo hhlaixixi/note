@@ -8,3 +8,6 @@
   cat flieName
   -- 可以配合上面 tail 日志使用 如 cat fileName | head -n 100
   -- zcat 解压并获取获取gz后缀的
+3, 查看操作过的命令
+  -- history
+4,
