@@ -2,4 +2,8 @@
   tail -f fileName
   -- 查看最后一百行 tail -n 100 fileName
   -- 查看前面一百行 head -n 100 fileName
-2, 
+  -- 从一百行开始显示 tail -n +100 flieName
+  -- 显示100行到500行 head -n 500 | tail -n +100
+2, cat命令
+  cat flieName
+  -- 可以配合上面 tail 日志使用 如 cat fileName | head -n 100
