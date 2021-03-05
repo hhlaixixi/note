@@ -1,0 +1,4 @@
+docker 容器运行命令
+nacos 注册中心
+mysql 启动
+  docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=lhh123 -d mysql
